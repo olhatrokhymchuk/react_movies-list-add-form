@@ -68,6 +68,7 @@ export const NewMovie = ({ addMovie }: Props) => {
         label="Image URL"
         value={imgUrl}
         onChange={value => setImgUrl(value)}
+        required
       />
 
       <TextField
@@ -75,6 +76,7 @@ export const NewMovie = ({ addMovie }: Props) => {
         label="Imdb URL"
         value={imdbUrl}
         onChange={value => setImdbUrl(value)}
+        required
       />
 
       <TextField
@@ -82,6 +84,7 @@ export const NewMovie = ({ addMovie }: Props) => {
         label="Imdb ID"
         value={imdbId}
         onChange={value => setImdbId(value)}
+        required
       />
 
       <div className="field is-grouped">
